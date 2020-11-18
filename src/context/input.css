@@ -1,0 +1,30 @@
+.input-label {
+
+}
+.input-label input {
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+.input-label.red .input-name{
+    color: red;
+    font-weight: bold;
+}
+.input-label.red input{
+    background:  rgba(255, 64, 64, 0.3);
+}
+.input-label.purple .input-name{
+    color: #FF1493;
+    font-weight: bold;
+}
+.input-label.purple input{
+    background:   rgba(235, 82, 132, 0.3);
+}
+.input-label.lightGreen .input-name{
+    color: #00FF7F;
+    font-weight: bold;
+}
+.input-label.lightGreen input{
+    background:   rgba(178, 236, 93, 0.3);
+}

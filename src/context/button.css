@@ -1,0 +1,16 @@
+.btn {
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn.red {
+    background-color: red;
+    color: white;
+}
+.btn.purple {
+    background-color:#FF1493;
+    color: white;
+}
+.btn.lightgreen {
+    background: #00FF7F;
+}

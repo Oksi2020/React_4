@@ -1,0 +1,12 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form input {
+    width: 200px;
+}
+
+.form button {
+    width: 200px;
+    height: 30px;
+}

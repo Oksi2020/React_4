@@ -1,0 +1,34 @@
+.toggler {
+    margin:5px;
+}
+
+.toggler.red .toggler-item{
+    background: rgba(255, 64, 64, 0.3);
+}
+.toggler.red .toggler-item.active {
+    background: red;
+    color: white;
+}
+.toggler.purple .toggler-item{
+    background: rgba(235, 82, 132, 0.3);
+}
+.toggler.purple .toggler-item.active {
+    background: #FF1493;
+    color: white;
+}
+
+.toggler.lightGreen .toggler-item{
+    background: rgba(178, 236,	93, 0.3);
+}
+.toggler.lightGreen .toggler-item.active {
+    background: #00FF7F;
+}
+.toggler-item {
+    background: #e9e9e9;
+    border: none;
+    width: 100px;
+    padding: 5px;
+}
+.toggler-item.active {
+    background-color: darkorange;
+}
